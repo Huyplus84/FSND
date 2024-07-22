@@ -1,4 +1,4 @@
-# Coffee Shop Backend
+# Capstone Backend
 
 ## Getting Started
 
@@ -48,17 +48,17 @@ flask run --reload
 
 The `--reload` flag will detect file changes and restart the server automatically.
 
-### Setup Auth0
+## Setup Auth0
 
-#### Create Auth0 Application
+### Create Auth0 Application
 
 ![alt text](./images/image.png)
 
-#### Create Auth0 API and Permissions
+### Create Auth0 API and Permissions
 
 ![alt text](./images/image-1.png)
 
-#### Create Auth0 Roles and Users
+### Create Auth0 Roles and Users
 
 ![alt text](./images/image-2.png)
 
@@ -66,31 +66,26 @@ The `--reload` flag will detect file changes and restart the server automaticall
 
 ![alt text](./images/image-4.png)
 
-### Implement The Server
+## Test Postman Collection
 
-There are `@TODO` comments throughout the `./backend/`. We recommend tackling the files in order and from top to bottom:
-
-1. `./backend/auth/auth.py`
-2. `./backend/api.py`
-
-### Test Postman Collection
-
-#### Import Postman Collection
+### Import Postman Collection
 
 1. Open Postman
 2. Click on Import
 3. Click on Choose Files
 4. Select the file `./backend/udacity-fsnd-udaspicelatte.postman_collection.json`
 
-#### Get JWT Tokens
+### Get JWT Tokens
 
 Access the followin link to get the JWT tokens for the users:
 
+```
 https://dev-4ysrs5ruqzqqhcet.us.auth0.com/u/login?state=hKFo2SBSbHA4dUdPQnNBREZJcS1zZ2pEVlJwOWFaMzZpWjJWWKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFJBVWhTWnpnSDRRZzdFdkRDU2ZoQTNFRkhmQmhORG5So2NpZNkgOE5mY1Vxb1ZQMGZVaW00VkZmWHA5cUJCQXdTb0owMlA
+```
 
 Then, inport Bearer Token into Postman.
 
-#### Test Endpoints
+### Test Endpoints
 
 1. Click on the arrow next to the collection name to expand the collection
 2. Choose folder `public`, `barista`, or `manager` and run tests on the endpoints
